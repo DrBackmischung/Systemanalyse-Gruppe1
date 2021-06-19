@@ -1,80 +1,230 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T20:52:30.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="GtD7e6cP3pt1F0G_nOgL" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-19T18:03:27.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="Rz7UXxk4cKM6Bf_YHcTZ" version="14.8.0" type="github">
   <diagram id="BuuVrnjkzm051dhJfcHI" name="Page-1">
-    <mxGraphModel dx="2015" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="3276" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-36" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;View&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-880" y="200" width="260" height="160" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-47" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="280" width="400" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-39" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;- serialVersionUID: long&lt;/u&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-36" vertex="1">
-          <mxGeometry y="55" width="260" height="25" as="geometry" />
+        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-36" value="&amp;lt;&amp;lt;Webpage&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;FrontView&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="GEL-Xjr-2e6A1aHmXNmO-47" vertex="1">
+          <mxGeometry x="20" y="20" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-39" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Attributes)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-36" vertex="1">
+          <mxGeometry y="55" width="140" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Lv0ElcuT6AQo6-ZKucd3-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-36" vertex="1">
-          <mxGeometry y="80" width="260" height="8" as="geometry" />
+          <mxGeometry y="140" width="140" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-38" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ View(Controller)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-36" vertex="1">
-          <mxGeometry y="88" width="260" height="72" as="geometry" />
+        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-38" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Methods)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-36" vertex="1">
+          <mxGeometry y="148" width="140" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-32" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;Controller&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-960" y="400" width="190" height="158" as="geometry" />
+        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-32" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;FrontController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="GEL-Xjr-2e6A1aHmXNmO-47" vertex="1">
+          <mxGeometry x="20" y="300" width="360" height="158" as="geometry" />
         </mxCell>
         <mxCell id="Lv0ElcuT6AQo6-ZKucd3-106" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: Controller&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-32" vertex="1">
-          <mxGeometry y="55" width="190" height="15" as="geometry" />
+          <mxGeometry y="55" width="360" height="15" as="geometry" />
         </mxCell>
         <mxCell id="Lv0ElcuT6AQo6-ZKucd3-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-32" vertex="1">
-          <mxGeometry y="70" width="190" height="8" as="geometry" />
+          <mxGeometry y="70" width="360" height="8" as="geometry" />
         </mxCell>
         <mxCell id="Lv0ElcuT6AQo6-ZKucd3-35" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- Controller()&lt;br&gt;&lt;u&gt;+ getInstance(): Controller&lt;/u&gt;&lt;br&gt;+ startCustomerApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startAdminApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startEmployeeApplication(): void&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-32" vertex="1">
-          <mxGeometry y="78" width="190" height="80" as="geometry" />
+          <mxGeometry y="78" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-40" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;Model&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-720" y="400" width="190" height="210" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-17" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;FrontModel&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-47">
+          <mxGeometry x="190" y="20" width="190" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-43" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- results: ArrayList&amp;lt;ResultList&amp;gt;&lt;br&gt;- currentDistrictResult: ResultList&lt;br&gt;- model: Model&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-40" vertex="1">
-          <mxGeometry y="55" width="190" height="45" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-18" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- results: ArrayList&amp;lt;ResultList&amp;gt;&lt;br&gt;- currentDistrictResult: ResultList&lt;br&gt;- model: Model&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-17">
+          <mxGeometry y="55" width="190" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-40" vertex="1">
-          <mxGeometry y="100" width="190" height="8" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-17">
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Lv0ElcuT6AQo6-ZKucd3-42" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ Model()&lt;br&gt;&lt;u&gt;+ getInstance(): Model&lt;br&gt;&lt;/u&gt;+ getResultForDistrict(): ResultList&lt;br&gt;+ getResultForCity: ResultList&lt;br&gt;+ loadDistrict(String): boolean&lt;br&gt;+ readData(ArrayList&amp;lt;ResultList&amp;gt;): void&lt;br&gt;+ getDistrictNames(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lv0ElcuT6AQo6-ZKucd3-40" vertex="1">
-          <mxGeometry y="108" width="190" height="102" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-20" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ Model()&lt;br&gt;&lt;u&gt;+ getInstance(): Model&lt;br&gt;&lt;/u&gt;+ getResultForDistrict(): ResultList&lt;br&gt;+ getResultForCity: ResultList&lt;br&gt;+ loadDistrict(String): boolean&lt;br&gt;+ readData(ArrayList&amp;lt;ResultList&amp;gt;): void&lt;br&gt;+ getDistrictNames(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-17">
+          <mxGeometry y="118" width="190" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-5" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;CustomerController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="600" width="190" height="110" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-61" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="1400" width="400" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-6" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: CustomerController&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-5">
-          <mxGeometry y="55" width="190" height="15" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-62" value="&amp;lt;&amp;lt;Webpage&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;EmployeeView&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-61">
+          <mxGeometry x="20" y="20" width="140" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-5">
-          <mxGeometry y="70" width="190" height="8" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-63" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Attributes)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-62">
+          <mxGeometry y="55" width="140" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-8" value="&lt;span style=&quot;font-size: 10px&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;CustomerController&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;()&lt;br&gt;&lt;u&gt;+ getInstance():&amp;nbsp;&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;CustomerController&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-5">
-          <mxGeometry y="78" width="190" height="32" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-64" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-62">
+          <mxGeometry y="140" width="140" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-17" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;EmployeeController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="720" width="190" height="110" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-65" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Methods)&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-62">
+          <mxGeometry y="148" width="140" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-18" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: EmployeeController&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-17">
-          <mxGeometry y="55" width="190" height="15" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-66" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;EmployeeController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-61">
+          <mxGeometry x="20" y="300" width="360" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-17">
-          <mxGeometry y="70" width="190" height="8" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-67" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: Controller&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-66">
+          <mxGeometry y="55" width="360" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-20" value="&lt;span style=&quot;font-size: 10px&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;EmployeeController&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;()&lt;br&gt;&lt;u&gt;+ getInstance():&amp;nbsp;&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;EmployeeController&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-17">
-          <mxGeometry y="78" width="190" height="32" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-66">
+          <mxGeometry y="70" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-21" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;AdminController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="840" width="190" height="110" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-69" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- Controller()&lt;br&gt;&lt;u&gt;+ getInstance(): Controller&lt;/u&gt;&lt;br&gt;+ startCustomerApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startAdminApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startEmployeeApplication(): void&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-66">
+          <mxGeometry y="78" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-22" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: AdminController&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-21">
-          <mxGeometry y="55" width="190" height="15" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-70" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;EmployeeModel&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-61">
+          <mxGeometry x="190" y="20" width="190" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-21">
-          <mxGeometry y="70" width="190" height="8" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-71" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- results: ArrayList&amp;lt;ResultList&amp;gt;&lt;br&gt;- currentDistrictResult: ResultList&lt;br&gt;- model: Model&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-70">
+          <mxGeometry y="55" width="190" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="DMgk_VRoaQ-fx2QsrVjO-24" value="&lt;span style=&quot;font-size: 10px&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;AdminController&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;()&lt;br&gt;&lt;u&gt;+ getInstance():&amp;nbsp;&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;AdminController&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DMgk_VRoaQ-fx2QsrVjO-21">
-          <mxGeometry y="78" width="190" height="32" as="geometry" />
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-70">
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-73" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ Model()&lt;br&gt;&lt;u&gt;+ getInstance(): Model&lt;br&gt;&lt;/u&gt;+ getResultForDistrict(): ResultList&lt;br&gt;+ getResultForCity: ResultList&lt;br&gt;+ loadDistrict(String): boolean&lt;br&gt;+ readData(ArrayList&amp;lt;ResultList&amp;gt;): void&lt;br&gt;+ getDistrictNames(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-70">
+          <mxGeometry y="118" width="190" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-74" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="840" width="400" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-75" value="&amp;lt;&amp;lt;Webpage&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;LoginView&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-74">
+          <mxGeometry x="20" y="20" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Attributes)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-75">
+          <mxGeometry y="55" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-77" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-75">
+          <mxGeometry y="140" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-78" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Methods)&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-75">
+          <mxGeometry y="148" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-79" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;LoginController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-74">
+          <mxGeometry x="20" y="300" width="360" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-80" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: Controller&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-79">
+          <mxGeometry y="55" width="360" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-79">
+          <mxGeometry y="70" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-82" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- Controller()&lt;br&gt;&lt;u&gt;+ getInstance(): Controller&lt;/u&gt;&lt;br&gt;+ startCustomerApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startAdminApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startEmployeeApplication(): void&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-79">
+          <mxGeometry y="78" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-83" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;LoginModel&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-74">
+          <mxGeometry x="190" y="20" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-84" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- results: ArrayList&amp;lt;ResultList&amp;gt;&lt;br&gt;- currentDistrictResult: ResultList&lt;br&gt;- model: Model&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-83">
+          <mxGeometry y="55" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-85" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-83">
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-86" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ Model()&lt;br&gt;&lt;u&gt;+ getInstance(): Model&lt;br&gt;&lt;/u&gt;+ getResultForDistrict(): ResultList&lt;br&gt;+ getResultForCity: ResultList&lt;br&gt;+ loadDistrict(String): boolean&lt;br&gt;+ readData(ArrayList&amp;lt;ResultList&amp;gt;): void&lt;br&gt;+ getDistrictNames(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-83">
+          <mxGeometry y="118" width="190" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-87" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="1960" width="400" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-88" value="&amp;lt;&amp;lt;Webpage&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;AdminView&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-87">
+          <mxGeometry x="20" y="20" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-89" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(EmployeeView Attributes)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-88">
+          <mxGeometry y="55" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-90" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-88">
+          <mxGeometry y="140" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-91" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(EmployeeView Methods)&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-88">
+          <mxGeometry y="148" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-92" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;AdminController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-87">
+          <mxGeometry x="20" y="300" width="360" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-93" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: Controller&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-92">
+          <mxGeometry y="55" width="360" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-92">
+          <mxGeometry y="70" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-95" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- Controller()&lt;br&gt;&lt;u&gt;+ getInstance(): Controller&lt;/u&gt;&lt;br&gt;+ startCustomerApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startAdminApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startEmployeeApplication(): void&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-92">
+          <mxGeometry y="78" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-96" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;AdminModel&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-87">
+          <mxGeometry x="190" y="20" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-97" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- results: ArrayList&amp;lt;ResultList&amp;gt;&lt;br&gt;- currentDistrictResult: ResultList&lt;br&gt;- model: Model&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-96">
+          <mxGeometry y="55" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-98" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-96">
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-99" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ Model()&lt;br&gt;&lt;u&gt;+ getInstance(): Model&lt;br&gt;&lt;/u&gt;+ getResultForDistrict(): ResultList&lt;br&gt;+ getResultForCity: ResultList&lt;br&gt;+ loadDistrict(String): boolean&lt;br&gt;+ readData(ArrayList&amp;lt;ResultList&amp;gt;): void&lt;br&gt;+ getDistrictNames(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-96">
+          <mxGeometry y="118" width="190" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-100" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2520" width="400" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-101" value="&amp;lt;&amp;lt;Webpage&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;CustomerView&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-100">
+          <mxGeometry x="20" y="20" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-102" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Attributes)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-101">
+          <mxGeometry y="55" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-103" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-101">
+          <mxGeometry y="140" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-104" value="&lt;span style=&quot;font-size: 10px&quot;&gt;(View Methods)&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-101">
+          <mxGeometry y="148" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-105" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;CustomerController&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-100">
+          <mxGeometry x="20" y="300" width="360" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-106" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: Controller&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-105">
+          <mxGeometry y="55" width="360" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-107" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-105">
+          <mxGeometry y="70" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-108" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- Controller()&lt;br&gt;&lt;u&gt;+ getInstance(): Controller&lt;/u&gt;&lt;br&gt;+ startCustomerApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startAdminApplication(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ startEmployeeApplication(): void&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-105">
+          <mxGeometry y="78" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-109" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;CustomerModel&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-100">
+          <mxGeometry x="190" y="20" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-110" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- results: ArrayList&amp;lt;ResultList&amp;gt;&lt;br&gt;- currentDistrictResult: ResultList&lt;br&gt;- model: Model&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-109">
+          <mxGeometry y="55" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-111" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-109">
+          <mxGeometry y="110" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-112" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ Model()&lt;br&gt;&lt;u&gt;+ getInstance(): Model&lt;br&gt;&lt;/u&gt;+ getResultForDistrict(): ResultList&lt;br&gt;+ getResultForCity: ResultList&lt;br&gt;+ loadDistrict(String): boolean&lt;br&gt;+ readData(ArrayList&amp;lt;ResultList&amp;gt;): void&lt;br&gt;+ getDistrictNames(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-109">
+          <mxGeometry y="118" width="190" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-113" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="280" width="400" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-114" value="&amp;lt;&amp;lt;Webpage&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;View&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-113">
+          <mxGeometry x="20" y="20" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-115" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;u&gt;- serialVersionUID: long&lt;/u&gt;&lt;br&gt;- controller: controller&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-114">
+          <mxGeometry y="55" width="360" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-116" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-114">
+          <mxGeometry y="140" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-117" value="&lt;span style=&quot;font-size: 10px&quot;&gt;+ View(Controller)&lt;br&gt;+ displayErrorPopup(String s): void&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-114">
+          <mxGeometry y="148" width="360" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-118" value="&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;&lt;br&gt;&lt;font&gt;&lt;b&gt;Controller&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;.../gui&lt;/font&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-113">
+          <mxGeometry x="20" y="260" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-119" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- controller: Controller&lt;br&gt;- view: View&lt;br&gt;- model: Model&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-118">
+          <mxGeometry y="55" width="360" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-120" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-118">
+          <mxGeometry y="110" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GEL-Xjr-2e6A1aHmXNmO-121" value="&lt;span style=&quot;font-size: 10px&quot;&gt;- Controller()&lt;br&gt;&lt;u&gt;+ getInstance(): Controller&lt;/u&gt;&lt;br&gt;+ startApplication(): void&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+ openUI(): void&lt;br&gt;+ convertErrorCode(int code): String&lt;br&gt;+ printErrorMessage(String s)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GEL-Xjr-2e6A1aHmXNmO-118">
+          <mxGeometry y="118" width="360" height="102" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
