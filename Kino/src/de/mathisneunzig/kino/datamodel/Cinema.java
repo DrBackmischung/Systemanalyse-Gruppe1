@@ -20,60 +20,60 @@ public class Cinema {
 		this.menu = FoodMenu.NORMAL();
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getAdress() {
-		return adress;
-	}
-
-	public void setAdress(String adress) {
-		this.adress = adress;
-	}
-
-	public long getPhoneNr() {
-		return phoneNr;
-	}
-
-	public void setPhoneNr(long phoneNr) {
-		this.phoneNr = phoneNr;
-	}
-
-	public ArrayList<Employee> getEmployees() {
-		return employees;
-	}
-
-	public void setEmployees(ArrayList<Employee> employees) {
-		this.employees = employees;
-	}
-	
-	public void addEmployee(Employee e) {
-		employees.add(e);
-	}
-
-	public ArrayList<CinemaRoom> getRooms() {
-		return rooms;
-	}
-
-	public void setRooms(ArrayList<CinemaRoom> rooms) {
-		this.rooms = rooms;
-	}
-	
-	public void addRoom(CinemaRoom cr) {
-		rooms.add(cr);
-	}
-
-	public FoodMenu getMenu() {
-		return menu;
-	}
-
-	public void setMenu(FoodMenu menu) {
-		this.menu = menu;
-	}
+//	public String getName() {
+//		return name;
+//	}
+//
+//	public void setName(String name) {
+//		this.name = name;
+//	}
+//
+//	public String getAdress() {
+//		return adress;
+//	}
+//
+//	public void setAdress(String adress) {
+//		this.adress = adress;
+//	}
+//
+//	public long getPhoneNr() {
+//		return phoneNr;
+//	}
+//
+//	public void setPhoneNr(long phoneNr) {
+//		this.phoneNr = phoneNr;
+//	}
+//
+//	public ArrayList<Employee> getEmployees() {
+//		return employees;
+//	}
+//
+//	public void setEmployees(ArrayList<Employee> employees) {
+//		this.employees = employees;
+//	}
+//	
+//	public void addEmployee(Employee e) {
+//		employees.add(e);
+//	}
+//
+//	public ArrayList<CinemaRoom> getRooms() {
+//		return rooms;
+//	}
+//
+//	public void setRooms(ArrayList<CinemaRoom> rooms) {
+//		this.rooms = rooms;
+//	}
+//	
+//	public void addRoom(CinemaRoom cr) {
+//		rooms.add(cr);
+//	}
+//
+//	public FoodMenu getMenu() {
+//		return menu;
+//	}
+//
+//	public void setMenu(FoodMenu menu) {
+//		this.menu = menu;
+//	}
 
 }

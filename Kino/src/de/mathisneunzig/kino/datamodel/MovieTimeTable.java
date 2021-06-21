@@ -17,14 +17,14 @@ public class MovieTimeTable {
 	public void removeMovie(Show s) {
 		timetable.remove(s);
 	}
-
-	public ArrayList<Show> getTimetable() {
-		return timetable;
-	}
-
-	public void setTimetable(ArrayList<Show> timetable) {
-		this.timetable = timetable;
-	}
+//
+//	public ArrayList<Show> getTimetable() {
+//		return timetable;
+//	}
+//
+//	public void setTimetable(ArrayList<Show> timetable) {
+//		this.timetable = timetable;
+//	}
 	
 	
 	

@@ -9,9 +9,10 @@ public abstract class User {
 	ArrayList<Booking> bookings;
 	public static final int NO_ROLE = 0;
 	public static final int CUSTOMER = 1;
-	public static final int EMPLOYEE = 2;
-	public static final int REGISTER = 3;
-	public static final int ADMIN = 4;
+	public static final int MAYORCUSTOMER = 2;
+	public static final int EMPLOYEE = 3;
+	public static final int REGISTER = 4;
+	public static final int ADMIN = 5;
 	
 	public User(String firstName, String lastName, String email, String passwordHash) {
 		this.firstName = firstName;
@@ -22,31 +23,31 @@ public abstract class User {
 		this.bookings = new ArrayList<>();
 	}
 	
-	public abstract String getFirstName();
-
-	public abstract void setFirstName(String firstName);
-
-	public abstract String getLastName();
-
-	public abstract void setLastName(String lastName);
-
-	public abstract String getEmail();
-
-	public abstract void setEmail(String email);
-
-	public abstract String getPasswordHash();
-
-	public abstract void setPasswordHash(String passwordHash);
-
-	public abstract int getRole();
-	
+//	public abstract String getFirstName();
+//
+//	public abstract void setFirstName(String firstName);
+//
+//	public abstract String getLastName();
+//
+//	public abstract void setLastName(String lastName);
+//
+//	public abstract String getEmail();
+//
+//	public abstract void setEmail(String email);
+//
+//	public abstract String getPasswordHash();
+//
+//	public abstract void setPasswordHash(String passwordHash);
+//
+//	public abstract int getRole();
+//	
 	public abstract void addBooking(Booking b);
 	
 	public abstract void removeBooking(Booking b);
-	
-	public abstract void setBookings(ArrayList<Booking> bookings);
-	
-	public abstract ArrayList<Booking> getBookings();
+//	
+//	public abstract void setBookings(ArrayList<Booking> bookings);
+//	
+//	public abstract ArrayList<Booking> getBookings();
 
 	
 }

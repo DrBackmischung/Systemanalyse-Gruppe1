@@ -22,18 +22,18 @@ public class PriceTable {
 		this.name = name;
 		this.prices = new ArrayList<>();
 	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public ArrayList<Price> getPrices() {
-		return prices;
-	}
-	public void setPrices(ArrayList<Price> prices) {
-		this.prices = prices;
-	}
+//	public String getName() {
+//		return name;
+//	}
+//	public void setName(String name) {
+//		this.name = name;
+//	}
+//	public ArrayList<Price> getPrices() {
+//		return prices;
+//	}
+//	public void setPrices(ArrayList<Price> prices) {
+//		this.prices = prices;
+//	}
 	
 	public void addPrice(Price p) {
 		prices.add(p);

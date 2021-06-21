@@ -1,362 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
   realizations="false" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="de.mathisneunzig.kino.datamodel.Admin" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Admin.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="602" y="1018"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="de.mathisneunzig.kino.datamodel.Booking" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Booking.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1101" y="1425"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="de.mathisneunzig.kino.datamodel.Cinema" project="Kino" 
+  <class id="1" language="java" name="de.mathisneunzig.kino.datamodel.Cinema" project="Kino" 
     file="/Kino/src/de/mathisneunzig/kino/datamodel/Cinema.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="387" width="227" x="259" y="37"/>    
+    <position height="-1" width="-1" x="655" y="118"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="de.mathisneunzig.kino.datamodel.CinemaRoom" project="Kino" 
+  <class id="2" language="java" name="de.mathisneunzig.kino.datamodel.CinemaRoom" project="Kino" 
     file="/Kino/src/de/mathisneunzig/kino/datamodel/CinemaRoom.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="412" y="751"/>    
+    <position height="-1" width="-1" x="409" y="371"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="de.mathisneunzig.kino.datamodel.Customer" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="779" y="1258"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="6" language="java" name="de.mathisneunzig.kino.datamodel.Employee" project="Kino" 
+  <class id="3" language="java" name="de.mathisneunzig.kino.datamodel.Employee" project="Kino" 
     file="/Kino/src/de/mathisneunzig/kino/datamodel/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="719" y="748"/>    
+    <position height="-1" width="-1" x="947" y="472"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="de.mathisneunzig.kino.datamodel.Movie" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Movie.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="633" y="2013"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="8" language="java" name="de.mathisneunzig.kino.datamodel.MovieTimeTable" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/MovieTimeTable.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="386" y="1152"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="9" language="java" name="de.mathisneunzig.kino.datamodel.Price" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Price.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="133" y="2085"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="10" language="java" name="de.mathisneunzig.kino.datamodel.PriceTable" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/PriceTable.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="352" y="1804"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="11" language="java" name="de.mathisneunzig.kino.datamodel.Register" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Register.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="863" y="989"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="12" language="java" name="de.mathisneunzig.kino.datamodel.Show" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Show.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="504" y="1509"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="13" language="java" name="de.mathisneunzig.kino.datamodel.Timestamp" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/Timestamp.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="891" y="1896"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="14" language="java" name="de.mathisneunzig.kino.datamodel.User" project="Kino" 
+  <class id="4" language="java" name="de.mathisneunzig.kino.datamodel.User" project="Kino" 
     file="/Kino/src/de/mathisneunzig/kino/datamodel/User.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1176" y="830"/>    
+    <position height="-1" width="-1" x="1213" y="212"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="15" language="java" name="de.mathisneunzig.kino.datamodel.FoodMenu" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/FoodMenu.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="225" width="197" x="41" y="464"/>    
+  <class id="5" language="java" name="de.mathisneunzig.kino.datamodel.Admin" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Admin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="848" y="730"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="de.mathisneunzig.kino.datamodel.FoodItem" project="Kino" 
-    file="/Kino/src/de/mathisneunzig/kino/datamodel/FoodItem.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="225" width="163" x="41" y="999"/>    
+  <class id="6" language="java" name="de.mathisneunzig.kino.datamodel.Register" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Register.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1043" y="631"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="17" language="java" name="de.mathisneunzig.kino.datamodel.QRCode" project="Kino" 
+  <class id="7" language="java" name="de.mathisneunzig.kino.datamodel.Customer" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1484" y="481"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="de.mathisneunzig.kino.datamodel.MajoyCustomer" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/MajoyCustomer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1533" y="698"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="de.mathisneunzig.kino.datamodel.Booking" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Booking.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1250" y="915"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="de.mathisneunzig.kino.datamodel.MovieTimeTable" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/MovieTimeTable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="346" y="623"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="de.mathisneunzig.kino.datamodel.Show" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Show.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="526" y="1083"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="de.mathisneunzig.kino.datamodel.Movie" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Movie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="472" y="1299"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="de.mathisneunzig.kino.datamodel.PriceTable" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/PriceTable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="827" y="1266"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="de.mathisneunzig.kino.datamodel.Price" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Price.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="769" y="1504"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="de.mathisneunzig.kino.datamodel.QRCode" project="Kino" 
     file="/Kino/src/de/mathisneunzig/kino/datamodel/QRCode.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1184" y="1814"/>    
+    <position height="135" width="148" x="1485" y="858"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="18">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="19" name="m">        
-        <position height="0" width="0" x="-197" y="192"/>      
-      </attribute>      
-      <multiplicity id="20" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-197" y="192"/>      
-      </multiplicity>    
+  <class id="16" language="java" name="de.mathisneunzig.kino.datamodel.SeatingPlan" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/SeatingPlan.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="592" y="634"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="de.mathisneunzig.kino.datamodel.SeatOccupancyPlan" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/SeatOccupancyPlan.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="160" x="577" y="817"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="de.mathisneunzig.kino.datamodel.Timestamp" project="Kino" 
+    file="/Kino/src/de/mathisneunzig/kino/datamodel/Timestamp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="152" x="1156" y="1107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="19">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="20" name="m"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
+    <end type="TARGET" refId="12" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="21">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="22" name="prices">        
-        <position height="0" width="0" x="15" y="-73"/>      
-      </attribute>      
-      <multiplicity id="23" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="15" y="-73"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="24">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="6"/>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
   </generalization>  
-  <association id="25">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="26" name="employees">        
-        <position height="0" width="0" x="359" y="-417"/>      
-      </attribute>      
-      <multiplicity id="27" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="359" y="-417"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="28">    
+  <association id="23">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="29" name="qrCode"/>      
-      <multiplicity id="30" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="17" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="31">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="14"/>  
-  </generalization>  
-  <association id="32">    
-    <end type="SOURCE" refId="15" navigable="false">      
-      <attribute id="33" name="items">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="34" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+      <attribute id="24" name="seatingPlan"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="16" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="35">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="36" name="bookingTime">        
-        <position height="0" width="0" x="-195" y="48"/>      
-      </attribute>      
-      <multiplicity id="37" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-195" y="48"/>      
-      </multiplicity>    
+  <association id="26">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="27" name="employees"/>      
+      <multiplicity id="28" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="13" navigable="true"/>    
+    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="38">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="6"/>  
-  </generalization>  
-  <association id="39">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="40" name="s">        
-        <position height="0" width="0" x="-324" y="-29"/>      
-      </attribute>      
-      <multiplicity id="41" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-324" y="-29"/>      
-      </multiplicity>    
+  <association id="29">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="30" name="seatOccupancyPlan"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
+    <end type="TARGET" refId="17" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="42">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="43" name="timetable">        
-        <position height="0" width="0" x="-324" y="-29"/>      
-      </attribute>      
-      <multiplicity id="44" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-324" y="-29"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="12" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="45">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="46" name="rooms">        
-        <position height="0" width="0" x="-96" y="94"/>      
-      </attribute>      
-      <multiplicity id="47" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-96" y="94"/>      
-      </multiplicity>    
+  <association id="32">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="33" name="bookedBy"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="48">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="49" name="time">        
-        <position height="0" width="0" x="-195" y="48"/>      
-      </attribute>      
-      <multiplicity id="50" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-195" y="48"/>      
-      </multiplicity>    
+  <association id="35">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="36" name="prices"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="13" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="51">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="52" name="timetable">        
-        <position height="0" width="0" x="-231" y="77"/>      
-      </attribute>      
-      <multiplicity id="53" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-231" y="77"/>      
-      </multiplicity>    
+  <association id="38">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="39" name="bookingTime"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
+    <end type="TARGET" refId="18" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="54">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="55" name="menu">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="56" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="57">    
-    <end type="SOURCE" refId="16" navigable="false">      
-      <attribute id="58" name="price">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="59" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="60">    
+  <generalization id="41">    
     <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="14"/>  
+    <end type="TARGET" refId="3"/>  
   </generalization>  
-  <association id="61">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="62" name="prices">        
-        <position height="0" width="0" x="-124" y="19"/>      
-      </attribute>      
-      <multiplicity id="63" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-124" y="19"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="64">    
-    <bendpoint x="1192" y="1176"/>    
-    <end type="SOURCE" refId="14" navigable="false">      
-      <attribute id="65" name="bookings">        
-        <position height="0" width="0" x="-52" y="224"/>      
-      </attribute>      
-      <multiplicity id="66" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="-52" y="224"/>      
-      </multiplicity>    
+  <generalization id="42">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="44">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="45" name="rooms"/>      
+      <multiplicity id="46" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="67">    
+  <generalization id="47">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="48">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="49" name="s"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="52">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="53" name="timetable"/>      
+      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="56" name="time"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="68" name="bookedBy">        
-        <position height="0" width="0" x="310" y="119"/>      
-      </attribute>      
-      <multiplicity id="69" minimum="0" maximum="1">        
-        <position height="0" width="0" x="310" y="119"/>      
-      </multiplicity>    
+      <attribute id="59" name="timetable"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="62" name="prices"/>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="65" name="bookings"/>      
+      <multiplicity id="66" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="68" name="qrCode"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 

@@ -22,18 +22,18 @@ public class FoodMenu {
 		this.name = name;
 		this.items = new ArrayList<>();
 	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public ArrayList<FoodItem> getItems() {
-		return items;
-	}
-	public void setItems(ArrayList<FoodItem> items) {
-		this.items = items;
-	}
+//	public String getName() {
+//		return name;
+//	}
+//	public void setName(String name) {
+//		this.name = name;
+//	}
+//	public ArrayList<FoodItem> getItems() {
+//		return items;
+//	}
+//	public void setItems(ArrayList<FoodItem> items) {
+//		this.items = items;
+//	}
 	public void addItem(FoodItem i) {
 		items.add(i);
 	}

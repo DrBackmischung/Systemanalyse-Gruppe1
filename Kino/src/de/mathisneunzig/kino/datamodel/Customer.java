@@ -3,58 +3,61 @@ package de.mathisneunzig.kino.datamodel;
 import java.util.ArrayList;
 
 public class Customer extends User {
+	
+	int loyaltyPoints;
 
-	public Customer(String firstName, String lastName, String email, String passwordHash) {
+	public Customer(String firstName, String lastName, String email, String passwordHash, int loyaltyPoints) {
 		super(firstName, lastName, email, passwordHash);
+		this.loyaltyPoints = loyaltyPoints;
 		role = User.CUSTOMER;
 	}
 
-	@Override
-	public String getFirstName() {
-		return firstName;
-	}
-
-	@Override
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-		
-	}
-
-	@Override
-	public String getLastName() {
-		return lastName;
-	}
-
-	@Override
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
-	@Override
-	public String getEmail() {
-		return email;
-	}
-
-	@Override
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	@Override
-	public String getPasswordHash() {
-		return passwordHash;
-	}
-
-	@Override
-	public void setPasswordHash(String passwordHash) {
-		this.passwordHash = passwordHash;
-	}
-
-	@Override
-	public int getRole() {
-		return role;
-	}
-
+//	@Override
+//	public String getFirstName() {
+//		return firstName;
+//	}
+//
+//	@Override
+//	public void setFirstName(String firstName) {
+//		this.firstName = firstName;
+//		
+//	}
+//
+//	@Override
+//	public String getLastName() {
+//		return lastName;
+//	}
+//
+//	@Override
+//	public void setLastName(String lastName) {
+//		this.lastName = lastName;
+//	}
+//
+//	@Override
+//	public String getEmail() {
+//		return email;
+//	}
+//
+//	@Override
+//	public void setEmail(String email) {
+//		this.email = email;
+//	}
+//
+//	@Override
+//	public String getPasswordHash() {
+//		return passwordHash;
+//	}
+//
+//	@Override
+//	public void setPasswordHash(String passwordHash) {
+//		this.passwordHash = passwordHash;
+//	}
+//
+//	@Override
+//	public int getRole() {
+//		return role;
+//	}
+//
 	@Override
 	public void addBooking(Booking b) {
 		bookings.add(b);
@@ -66,16 +69,16 @@ public class Customer extends User {
 		bookings.remove(b);
 		
 	}
-
-	@Override
-	public void setBookings(ArrayList<Booking> bookings) {
-		this.bookings = bookings;
-		
-	}
-
-	@Override
-	public ArrayList<Booking> getBookings() {
-		return bookings;
-	}
+//
+//	@Override
+//	public void setBookings(ArrayList<Booking> bookings) {
+//		this.bookings = bookings;
+//		
+//	}
+//
+//	@Override
+//	public ArrayList<Booking> getBookings() {
+//		return bookings;
+//	}
 
 }
